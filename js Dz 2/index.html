@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js dz 2</title>
+</head>
+<body>
+    <script>
+        let userAge = prompt(`Скільки тобі років?`);
+        if (userAge<0) {
+            alert(`Нажаль ти ще не народився 😉 `);
+        } else if (userAge == 0) {
+            alert(`З днем народження! 🎉`);
+        } else if (userAge<=2) {
+            alert(`Тобі треба добре виспатись. 👶`);
+        } else if (userAge<=5) {
+            alert(`Тобі завтра в садочок. ⚽`);
+        } else if (userAge<=16) {
+            alert(`Тобі завтра в школу. 🏫`);
+        } else if (userAge<=21) {
+            alert(`Тобі завтра в університет.  👨‍🎓`);
+        } else if (userAge<=65) {
+            alert(`Тобі завтра на роботу.  👨‍💼`);
+        } else if (userAge<=100) {
+            alert(`Ти пенсіонер. 🎅`);
+        } else {
+            alert(`Ти точно людина? 😲`);
+        }
+    </script>
+</body>
+</html>
